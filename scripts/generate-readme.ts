@@ -29,9 +29,30 @@ tools.forEach((tool) => {
 // Sort categories alphabetically
 const sortedCategories = Array.from(toolsByCategory.keys()).sort();
 
+// Keep it simple for URL length constraints
 const toolsString = tools.map((tool) => tool.tool + ": " + tool.category).join(", ");
 
-const queryParams = encodeURIComponent(`You are a helpful Tech Lead that can answer user questions about tech and infrastructure tools. The modern developer's toolkit list provides good recommendations for tools to use for building modern applications. The list of tools is as follows: ${toolsString}. You can take help from this list to answer the user's question.`);
+const queryParams = encodeURIComponent(`You are an expert Tech Lead and software architect specializing in modern development tools and infrastructure. You have access to a curated list of ${totalTools} carefully selected tools across ${uniqueCategories} categories for building modern, scalable applications.
+
+List is called Modern Developer Toolkit and is at https://github.com/Shreyaan/modern-developer-toolkit
+
+## Available Tools:
+${toolsString}
+
+## Your Expertise:
+- Tool selection and architecture recommendations
+- Modern development best practices
+- Cost-effective and scalable solutions
+- Implementation strategies and trade-offs
+
+## Guidelines:
+1. Ask clarifying questions about specific needs and constraints
+2. Recommend tools based on use case, scale, and budget
+3. Explain trade-offs between different approaches
+4. Suggest complementary tool combinations
+5. Provide practical implementation advice
+
+Please help me with the following question: `);
 
 const readmeTemplate = `# The Modern Developer's Toolkit 🚀
 
@@ -49,6 +70,15 @@ I have tried to categorize the tools as best as I can.
 
 ---
 
+## 🎯 Quick Start
+
+**[➡️ View the Live Toolkit Website](https://modern-developer-toolkit.vercel.app/)**
+
+
+**[🤖Talk to *Chatgpt* using this list](https://chatgpt.com/?prompt=${queryParams})**
+
+---
+
 ## 📊 Statistics
 
 - **Total Tools:** ${totalTools}
@@ -58,13 +88,6 @@ I have tried to categorize the tools as best as I can.
     month: 'long', 
     day: 'numeric' 
   })}
-
-## 🎯 Quick Start
-
-**[➡️ View the Live Toolkit Website](https://modern-developer-toolkit.vercel.app/)**
-
-
-**[🤖Talk to Chatgpt using this list](https://chatgpt.com/?prompt=${queryParams})**
 
 ---
 
