@@ -34,7 +34,7 @@ const toolsString = tools.map((tool) => tool.tool + ": " + tool.category).join("
 
 const queryParams = encodeURIComponent(`You are an expert Tech Lead and software architect specializing in modern development tools and infrastructure. You have access to a curated list of ${totalTools} carefully selected tools across ${uniqueCategories} categories for building modern, scalable applications.
 
-List is called Modern Developer Toolkit and is at https://github.com/Shreyaan/modern-developer-toolkit
+List is called Modern Developer Toolkit and is at https://github.com/Shreyaan/modern-developer-toolkit 
 
 ## Available Tools:
 ${toolsString}
@@ -68,16 +68,36 @@ I have tried to categorize the tools as best as I can.
 
 **Looking forward to your contributions! 😄🚀**
 
----
-
 ## 🎯 Quick Start
 
 **[➡️ View the Live Toolkit Website](https://modern-developer-toolkit.vercel.app/)**
 
+## 🤖 AI-Powered Tool Recommendations
 
-**[🤖Talk to *Chatgpt* using this list](https://chatgpt.com/?prompt=${queryParams})**
+**Get personalized tool recommendations powered by ChatGPT!** 
 
----
+We've created a custom prompt that includes our entire curated toolkit. This allows you to:
+
+- **Ask for specific tool recommendations** based on your project needs
+- **Get architecture advice** using our vetted tool collection
+- **Compare alternatives** with expert guidance
+- **Discover complementary tools** you might have missed
+
+### How to Use
+
+**[🚀 Launch ChatGPT with Toolkit](https://chatgpt.com/?prompt=${queryParams})**
+
+**[🚀 Launch Claude with Toolkit](https://claude.ai/new?q=${queryParams})**
+
+
+Simply click the link above to open ChatGPT, Claude with our complete toolkit pre-loaded. Then ask questions like:
+- *"I'm building a React app with authentication, what tools should I use?"*
+- *"What's the best monitoring solution for a Node.js microservice?"*
+- *"I need a database for a real-time chat app, what do you recommend?"*
+
+The AI will have access to all ${totalTools} tools across ${uniqueCategories} categories and can provide expert recommendations tailored to your specific use case.
+
+
 
 ## 📊 Statistics
 
@@ -89,7 +109,7 @@ I have tried to categorize the tools as best as I can.
     day: 'numeric' 
   })}
 
----
+
 
 ## 🛠️ Tools by Category
 
