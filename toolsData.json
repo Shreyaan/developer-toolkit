@@ -373,7 +373,7 @@
   {
     "tool": "Prefect",
     "category": "Data Integration, ETL",
-    "description": "",
+    "description": "Prefect is a platform for building and orchestrating data pipelines. It is a modern alternative to Airflow.",
     "pairedWith": "",
     "link": "https://www.prefect.io/"
   },
