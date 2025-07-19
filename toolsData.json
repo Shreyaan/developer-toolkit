@@ -53,7 +53,7 @@
     "category": "AI Proxy",
     "description": "Unified gateway for managing and observing calls to AI APIs — adds caching, rate limiting, logging, and cost control for any AI provider.",
     "pairedWith": "Cloudflare Workers AI",
-    "link": "https://www.cloudflare.com/developer-platform/ai-gateway/"
+    "link": "https://developers.cloudflare.com/ai-gateway/"
   },
   {
     "tool": "Cloudflare CDN",
@@ -81,7 +81,7 @@
     "category": "Video Streaming",
     "description": "Hassle-free video hosting and streaming with global delivery, usage-based billing, and built-in player.",
     "pairedWith": "Cloudflare CDN",
-    "link": "https://www.cloudflare.com/developer-platform/stream/"
+    "link": "https://www.cloudflare.com/en-in/developer-platform/products/cloudflare-stream/"
   },
   {
     "tool": "Cloudflare Tunnel",
@@ -102,7 +102,7 @@
     "category": "Traffic Management",
     "description": "Virtual waiting room to manage peak traffic, balance load, and prevent server overload.",
     "pairedWith": "Cloudflare CDN",
-    "link": "https://www.cloudflare.com/products/waiting-room/"
+    "link": "https://www.cloudflare.com/en-in/application-services/products/waiting-room/"
   },
   {
     "tool": "Cloudflare Workers",
@@ -116,7 +116,7 @@
     "category": "AI Inference",
     "description": "Run 50+ open-source models on serverless GPUs, globally distributed. Zero infrastructure to manage — fully integrated with Workers, Pages & AI Gateway.",
     "pairedWith": "Cloudflare AI Gateway",
-    "link": "https://www.cloudflare.com/developer-platform/workers-ai/"
+    "link": "https://developers.cloudflare.com/workers-ai/"
   },
   {
     "tool": "cobalt.tools",
@@ -128,14 +128,14 @@
   {
     "tool": "Convex",
     "category": "Auth, BaaS, Database",
-    "description": "Built-in realtime data syncing + auth in one SDK. No separate GraphQL or REST layers—just call JS/TS functions that magically keep clients in sync.",
+    "description": "Built-in realtime data syncing + auth in one SDK. No separate GraphQL or REST layers—just call JS/TS functions that magically keep clients in sync. Convex is a great choice for building realtime applications with a modern developer experience.",
     "pairedWith": "",
     "link": "https://www.convex.dev/"
   },
   {
     "tool": "Coolify",
     "category": "PaaS",
-    "description": "Self-hosted Heroku — spin up apps, DBs, cron, and deploy from Git with no vendor lock. Good if you want full control but Heroku simplicity.",
+    "description": "Self-hosted Heroku — spin up apps, DBs, cron, and deploy from Git with no vendor lock. Good if you want full control but Heroku simplicity. I personally use it in my organization for all our apps.",
     "pairedWith": "",
     "link": "https://coolify.io/"
   },
@@ -156,14 +156,14 @@
   {
     "tool": "DigitalOcean",
     "category": "Serverless/Edge computing, VPS Hosting",
-    "description": "The classic “just works” VPS. Dead-simple UI, tons of tutorials — perfect for quick side projects when you don’t want to fiddle too much.",
+    "description": "The classic “just works” VPS. Dead-simple UI, tons of tutorials — perfect for quick side projects when you don’t want to fiddle too much. Also has k8s support, database support, and more.",
     "pairedWith": "",
     "link": "https://www.digitalocean.com/"
   },
   {
     "tool": "DLT",
     "category": "Data Integration, ETL",
-    "description": "Sane Python framework for building robust data pipelines — perfect for ELT with modern data stacks. Way less boilerplate than hand-rolled scripts.",
+    "description": "Sane Python framework for building robust data pipelines — perfect for ELT with modern data stacks. Way less boilerplate than hand-rolled scripts. Its like React for data pipelines.",
     "pairedWith": "",
     "link": "https://dlthub.com/"
   },
@@ -177,14 +177,14 @@
   {
     "tool": "DuckDB",
     "category": "Analytics, Database",
-    "description": "Just run heavy analytical SQL right in your script — no infra needed. Like having a mini-data warehouse in your Python notebook.",
+    "description": "Just run heavy analytical SQL right in your script — no infra needed. Like having a mini-data warehouse in your Python notebook. Personally, I love it for data exploration and analysis.",
     "pairedWith": "MotherDuck, Pandas",
     "link": "https://duckdb.org/"
   },
   {
     "tool": "Effect",
     "category": "Backend Framework",
-    "description": "If you like TypeScript but want Haskell-style effects and dependency injection, Effect is a no-brainer. Handles async, errors, and resources like a real FP runtime.",
+    "description": "If you like TypeScript but want Haskell-style effects and dependency injection, Effect is a no-brainer. Handles async, errors, and resources like a real FP runtime. Makes your code more robust and easier to reason about.",
     "pairedWith": "",
     "link": "https://www.effect.website/"
   },
@@ -205,7 +205,7 @@
   {
     "tool": "Hetzner",
     "category": "VPS Hosting",
-    "description": "Reliable EU-based servers with unbeatable price-to-performance, generous bandwidth, and transparent pricing.",
+    "description": "Reliable EU-based servers with unbeatable price-to-performance, generous bandwidth, and transparent pricing. Love it as a VPS provider.",
     "pairedWith": "OVH CDN",
     "link": "https://www.hetzner.com/cloud"
   },
@@ -310,7 +310,7 @@
   {
     "tool": "NocoDB",
     "category": "Database, No-Code",
-    "description": "Turn any SQL DB into a spreadsheet-like interface. Good for letting non-devs poke at data without writing SQL or spinning up Airtable.",
+    "description": "Spreadsheet-like interface for teams. Good for letting non-devs poke at data without writing SQL or spinning up Airtable. Have Hosted this for a lot of teams and they all love it.",
     "pairedWith": "",
     "link": "https://www.nocodb.com/"
   },
@@ -324,14 +324,14 @@
   {
     "tool": "OVH CDN",
     "category": "CDN",
-    "description": "Cost-effective EU-focused CDN with tight integration for OVH hosting and pay-as-you-go pricing.",
+    "description": "Cost-effective EU-focused CDN with tight integration for OVH hosting and pay-as-you-go pricing. Use if using ovh servers.",
     "pairedWith": "OVH VPS",
-    "link": "https://www.ovhcloud.com/en/cdn/"
+    "link": "https://www.ovhcloud.com/en-in/web-hosting/options/cdn/"
   },
   {
     "tool": "OVHCloud VPS",
     "category": "VPS Hosting",
-    "description": "High-performance VPS with unmetered bandwidth (except Asia-Pacific) at very competitive prices.",
+    "description": "High-performance VPS with unmetered bandwidth (except Asia-Pacific) at very competitive prices. Must use for bandwidth intensive applications.",
     "pairedWith": "OVH CDN",
     "link": "https://www.ovhcloud.com/en-in/vps/"
   },
@@ -345,7 +345,7 @@
   {
     "tool": "PlanetScale",
     "category": "Database, Serverless/Edge computing",
-    "description": "Schema changes never block production — database branching is the real standout here. Great if you hate late-night “oops, migration locked the app” moments.",
+    "description": "Provides mysql databse for scaling your application. Pretty industry standard. Vouched by industry leaders. Also added support for postgres recently.",
     "pairedWith": "Railway, Vercel",
     "link": "https://planetscale.com/"
   },
@@ -394,9 +394,9 @@
   {
     "tool": "Railway",
     "category": "PaaS",
-    "description": "Basically “Heroku, but modern”. Git push, deploy, done. Usage-based billing is great if you don’t want to idle infra burning cash.",
+    "description": "Basically “Heroku, but modern”. Git push, deploy, done. Usage-based billing is great if you don’t want to idle infra burning cash. I vouch for this heavily esp after metal pricing.",
     "pairedWith": "",
-    "link": "https://railway.app/"
+    "link": "https://railway.com/"
   },
   {
     "tool": "Raycast",
@@ -408,7 +408,7 @@
   {
     "tool": "Sentry",
     "category": "Error Monitoring",
-    "description": "Best way to actually see what broke — traces, breadcrumbs, and releases make debugging less guesswork.",
+    "description": "Best way to actually see what broke — traces, breadcrumbs, and releases make debugging less guesswork. None of my projects are without Sentry.",
     "pairedWith": "",
     "link": "https://sentry.io/"
   },
@@ -506,9 +506,30 @@
   {
     "tool": "Weaviate",
     "category": "Vector Database",
-    "description": "Handles multi-tenancy out of the box — one of the easiest vector DBs if you need isolated spaces for each customer without gluing together your own auth layer.",
+    "description": "Handles multi-tenancy out of the box — one of the easiest vector DBs if you need isolated spaces for each customer without gluing together your own auth layer. Easy to setup and use.",
     "pairedWith": "",
     "link": "https://weaviate.io/"
+  },
+  {
+    "tool": "TablePlus",
+    "category": "Database, Dev Tooling",
+    "description": "Modern, native, and friendly GUI tool for relational databases: PostgreSQL, Redis, SQLite, DuckDB & more. Best GUI for database management — clean interface, fast performance, and supports Apple Silicon, Windows, and Linux. Perfect for developers who want a native experience. Its fast and powerful.",
+    "pairedWith": "",
+    "link": "https://tableplus.com/"
+  },
+  {
+    "tool": "FFmpeg",
+    "category": "Media Processing, Dev Tooling",
+    "description": "It's a sin not to add this — the Swiss Army knife of media processing. Convert, compress, stream, and manipulate any video/audio format. CLI tool that handles everything from simple conversions to complex video pipelines. Essential for any media-heavy app.",
+    "pairedWith": "",
+    "link": "https://ffmpeg.org/"
+  },
+  {
+    "tool": "SQLite",
+    "category": "Database",
+    "description": "Please use this — it will handle your app pretty well, you don't need a hosted DB. Embedded, zero-config, ACID-compliant database that's perfect for most applications. Ships with every app, no server setup, and scales surprisingly well. Stop over-engineering your database choice.",
+    "pairedWith": "",
+    "link": "https://www.sqlite.org/"
   },
   {
     "tool": "WorkOS",
