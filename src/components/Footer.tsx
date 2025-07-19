@@ -4,7 +4,7 @@ export const Footer = () => (
       <p>
         Data sourced from{" "}
         <a
-          href="https://github.com/Shreyaan/developer-toolkit/blob/master/toolsData.json"
+          href="https://github.com/Shreyaan/modern-developer-toolkit/blob/master/toolsData.json"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -15,7 +15,7 @@ export const Footer = () => (
       <p className="contribute-text">
         Missing a tool? Found an error?{" "}
         <a
-          href="https://github.com/Shreyaan/developer-toolkit"
+          href="https://github.com/Shreyaan/modern-developer-toolkit"
           target="_blank"
           rel="noopener noreferrer"
         >

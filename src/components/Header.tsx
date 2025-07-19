@@ -1,4 +1,4 @@
-export const Header = () => (
+export const HeaderWithCount = ({ toolsData }: { toolsData: Tool[] }) => (
   <header>
     <h1>The Modern Developer's Toolkit</h1>
     <p>
@@ -8,7 +8,7 @@ export const Header = () => (
     </p>
     <div className="header-links">
       <a
-        href="https://github.com/Shreyaan/developer-toolkit"
+        href="https://github.com/Shreyaan/modern-developer-toolkit"
         target="_blank"
         rel="noopener noreferrer"
         className="github-link"
@@ -16,9 +16,17 @@ export const Header = () => (
         ⭐ Star on GitHub
       </a>
       <span className="divider">•</span>
+      <a
+        href="https://github.com/Shreyaan/modern-developer-toolkit/blob/master/toolsData.json"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="github-link"
+      >
+        ✍🏻 Contribute to the list
+      </a>
+      <span className="divider">•</span>
       <span className="tool-count">
-        Discover {/* This will be dynamically updated */} carefully selected
-        tools
+        Discover {toolsData.length}+ carefully selected tools
       </span>
     </div>
   </header>

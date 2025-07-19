@@ -6,6 +6,7 @@ import { Footer } from "./components/Footer";
 import { ToolCard } from "./components/ToolCard";
 import { SearchBar } from "./components/SearchBar";
 import { FilterButtons } from "./components/FilterButtons";
+import { HeaderWithCount } from "./components/Header";
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -44,35 +45,9 @@ function App() {
     });
   }, [searchTerm, activeCategory]);
 
-  // Update the header with dynamic tool count
-  const HeaderWithCount = () => (
-    <header>
-      <h1>The Modern Developer's Toolkit</h1>
-      <p>
-        A curated collection of powerful tools, services, and libraries for
-        building modern applications. This list focuses on practical,
-        battle-tested solutions that developers actually use in production.
-      </p>
-      <div className="header-links">
-        <a
-          href="https://github.com/Shreyaan/developer-toolkit"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="github-link"
-        >
-          ⭐ Star on GitHub
-        </a>
-        <span className="divider">•</span>
-        <span className="tool-count">
-          Discover {toolsData.length}+ carefully selected tools
-        </span>
-      </div>
-    </header>
-  );
-
   return (
     <div className="container">
-      <HeaderWithCount />
+      <HeaderWithCount toolsData={toolsData} />
 
       <div className="controls">
         <SearchBar
@@ -95,7 +70,7 @@ function App() {
             <p className="no-results-suggestion">
               Try adjusting your search or{" "}
               <a
-                href="https://github.com/Shreyaan/developer-toolkit"
+                href="https://github.com/Shreyaan/modern-developer-toolkit"
                 target="_blank"
                 rel="noopener noreferrer"
               >
