@@ -1,0 +1,36 @@
+name: Build and Generate README
+
+on:
+  push:
+    branches:
+      - main # Trigger the action on push to the main branch
+
+permissions:
+  contents: write # Allow the action to write to the repository (to commit README.md)
+
+jobs:
+  build-and-generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Generate README
+        run: bun run scripts/generate-readme.ts
+
+      - name: Build project
+        run: bun run build
+
+      - name: Commit updated README.md
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: Auto-generate README from latest data [skip ci]"
+          file_pattern: "README.md"

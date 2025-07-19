@@ -1,0 +1,520 @@
+[
+  {
+    "tool": "Backblaze B2 Cloud Storage",
+    "category": "Object Storage",
+    "description": "Ultra-low cost (up to 80% cheaper than AWS), free egress when paired with Cloudflare.",
+    "pairedWith": "Cloudflare",
+    "link": "https://www.backblaze.com/sign-up/cloud-storage"
+  },
+  {
+    "tool": "Better Auth",
+    "category": "Auth",
+    "description": "better than next auth. Full control in your code—no vendor lock-in. Plug in OAuth, email, or custom providers via simple adapter pattern.",
+    "pairedWith": "",
+    "link": "https://better-auth.com/"
+  },
+  {
+    "tool": "Bunny CDN",
+    "category": "CDN",
+    "description": "Blazing-fast global CDN with ultra-low cost, flexible per-region pricing, and free SSL.",
+    "pairedWith": "Bunny Storage",
+    "link": "https://bunny.net/cdn/"
+  },
+  {
+    "tool": "Bunny Storage",
+    "category": "Object Storage",
+    "description": "Cheap & fast geo-replicated storage that pairs perfectly with Bunny CDN.",
+    "pairedWith": "Bunny CDN",
+    "link": "https://bunny.net/storage/"
+  },
+  {
+    "tool": "Bunny Stream + Bunny Optimizer",
+    "category": "Media Optimization & Streaming, Video Streaming",
+    "description": "Seamless image & file optimization plus end-to-end video streaming — built-in encoding, global delivery, usage-based pricing, and real-time resizing.",
+    "pairedWith": "Bunny CDN",
+    "link": "https://bunny.net/stream/"
+  },
+  {
+    "tool": "Caddy",
+    "category": "Reverse Proxy",
+    "description": "Auto HTTPS, easy config, and super developer-friendly — nice if you want a modern alternative to nginx without fiddling with certbot.",
+    "pairedWith": "",
+    "link": "https://caddyserver.com/"
+  },
+  {
+    "tool": "ClickHouse",
+    "category": "Analytics, Database",
+    "description": "When Postgres gets slow for big aggregates, ClickHouse eats huge logs for breakfast. SQL, columnar, crazy fast — but needs care when writing.",
+    "pairedWith": "",
+    "link": "https://clickhouse.com/"
+  },
+  {
+    "tool": "Cloudflare AI Gateway",
+    "category": "AI Proxy",
+    "description": "Unified gateway for managing and observing calls to AI APIs — adds caching, rate limiting, logging, and cost control for any AI provider.",
+    "pairedWith": "Cloudflare Workers AI",
+    "link": "https://www.cloudflare.com/developer-platform/ai-gateway/"
+  },
+  {
+    "tool": "Cloudflare CDN",
+    "category": "CDN",
+    "description": "Massive global network, free tier, DDoS protection, and automatic caching — best all-round CDN for performance + security.",
+    "pairedWith": "Cloudflare Workers",
+    "link": "https://www.cloudflare.com/cdn/"
+  },
+  {
+    "tool": "Cloudflare Containers",
+    "category": "Serverless/Edge computing",
+    "description": "Run any containerized app on Cloudflare’s global edge with tight Workers integration, on-demand scaling, and globally routable Durable Objects — serverless, stateful, and cost-effective.",
+    "pairedWith": "Cloudflare Workers",
+    "link": "https://developers.cloudflare.com/containers/"
+  },
+  {
+    "tool": "Cloudflare R2",
+    "category": "Object Storage",
+    "description": "Zero egress fees by default, S3-compatible API, and built-in Cloudflare edge network for faster global delivery.",
+    "pairedWith": "Cloudflare Workers",
+    "link": "https://www.cloudflare.com/developer-platform/r2/"
+  },
+  {
+    "tool": "Cloudflare Stream",
+    "category": "Video Streaming",
+    "description": "Hassle-free video hosting and streaming with global delivery, usage-based billing, and built-in player.",
+    "pairedWith": "Cloudflare CDN",
+    "link": "https://www.cloudflare.com/developer-platform/stream/"
+  },
+  {
+    "tool": "Cloudflare Tunnel",
+    "category": "Networking, Reverse Proxy",
+    "description": "Expose local dev servers or self-hosted apps securely without fiddling with firewall or NAT — TLS and auth baked in. Dead simple if you’re already on Cloudflare.",
+    "pairedWith": "",
+    "link": "https://www.cloudflare.com/products/tunnel/"
+  },
+  {
+    "tool": "Cloudflare Vectorize",
+    "category": "Vector Database",
+    "description": "Serverless vector database built right into the Cloudflare edge — store, index, and search embeddings globally with zero infrastructure headaches.",
+    "pairedWith": "Cloudflare Workers AI",
+    "link": "https://developers.cloudflare.com/vectorize/"
+  },
+  {
+    "tool": "Cloudflare Waiting Room",
+    "category": "Traffic Management",
+    "description": "Virtual waiting room to manage peak traffic, balance load, and prevent server overload.",
+    "pairedWith": "Cloudflare CDN",
+    "link": "https://www.cloudflare.com/products/waiting-room/"
+  },
+  {
+    "tool": "Cloudflare Workers",
+    "category": "Serverless/Edge computing",
+    "description": "Run serverless code at the edge with zero cold starts — powerful for APIs, redirects, or custom logic.",
+    "pairedWith": "Cloudflare R2",
+    "link": "https://workers.cloudflare.com/"
+  },
+  {
+    "tool": "Cloudflare Workers AI",
+    "category": "AI Inference",
+    "description": "Run 50+ open-source models on serverless GPUs, globally distributed. Zero infrastructure to manage — fully integrated with Workers, Pages & AI Gateway.",
+    "pairedWith": "Cloudflare AI Gateway",
+    "link": "https://www.cloudflare.com/developer-platform/workers-ai/"
+  },
+  {
+    "tool": "cobalt.tools",
+    "category": "Media Downloader",
+    "description": "Private, ad-free, zero-log downloader for dozens of sites — works locally or self-hosted, with encrypted tunnels for maximum privacy.",
+    "pairedWith": "",
+    "link": "https://cobalt.tools/"
+  },
+  {
+    "tool": "Convex",
+    "category": "Auth, BaaS, Database",
+    "description": "Built-in realtime data syncing + auth in one SDK. No separate GraphQL or REST layers—just call JS/TS functions that magically keep clients in sync.",
+    "pairedWith": "",
+    "link": "https://www.convex.dev/"
+  },
+  {
+    "tool": "Coolify",
+    "category": "PaaS",
+    "description": "Self-hosted Heroku — spin up apps, DBs, cron, and deploy from Git with no vendor lock. Good if you want full control but Heroku simplicity.",
+    "pairedWith": "",
+    "link": "https://coolify.io/"
+  },
+  {
+    "tool": "Crawlee",
+    "category": "Web Scraping",
+    "description": "Open source Headless browser scraping with smart anti-bot handling baked in. Good middle ground between DIY Puppeteer scripts and big scraping SaaS.",
+    "pairedWith": "",
+    "link": "https://crawlee.dev/"
+  },
+  {
+    "tool": "Dagster",
+    "category": "Data Orchestration, ETL",
+    "description": "Modern alternative to Airflow — better DX for building pipelines with Python. Good observability and solid for local dev.",
+    "pairedWith": "",
+    "link": "https://dagster.io/"
+  },
+  {
+    "tool": "DigitalOcean",
+    "category": "Serverless/Edge computing, VPS Hosting",
+    "description": "The classic “just works” VPS. Dead-simple UI, tons of tutorials — perfect for quick side projects when you don’t want to fiddle too much.",
+    "pairedWith": "",
+    "link": "https://www.digitalocean.com/"
+  },
+  {
+    "tool": "DLT",
+    "category": "Data Integration, ETL",
+    "description": "Sane Python framework for building robust data pipelines — perfect for ELT with modern data stacks. Way less boilerplate than hand-rolled scripts.",
+    "pairedWith": "",
+    "link": "https://dlthub.com/"
+  },
+  {
+    "tool": "Docuseal",
+    "category": "Document Workflow, eSignature",
+    "description": "Straightforward, self-hostable e-sign tool — good alternative if you want to skip pricey SaaS and keep documents private.",
+    "pairedWith": "",
+    "link": "https://www.docuseal.co/"
+  },
+  {
+    "tool": "DuckDB",
+    "category": "Analytics, Database",
+    "description": "Just run heavy analytical SQL right in your script — no infra needed. Like having a mini-data warehouse in your Python notebook.",
+    "pairedWith": "MotherDuck, Pandas",
+    "link": "https://duckdb.org/"
+  },
+  {
+    "tool": "Effect",
+    "category": "Backend Framework",
+    "description": "If you like TypeScript but want Haskell-style effects and dependency injection, Effect is a no-brainer. Handles async, errors, and resources like a real FP runtime.",
+    "pairedWith": "",
+    "link": "https://www.effect.website/"
+  },
+  {
+    "tool": "Fivetran",
+    "category": "Data Integration, ETL",
+    "description": "Similar to Airbyte but fully managed — rock-solid syncs for when you don’t want to babysit pipelines. Costs add up fast though.",
+    "pairedWith": "",
+    "link": "https://www.fivetran.com/"
+  },
+  {
+    "tool": "Fly.io",
+    "category": "PaaS, Serverless/Edge computing",
+    "description": "Lets you run real containers close to users, not just serverless functions. LiteFS for SQLite replication at the edge is genuinely unique.",
+    "pairedWith": "",
+    "link": "https://fly.io/"
+  },
+  {
+    "tool": "Hetzner",
+    "category": "VPS Hosting",
+    "description": "Reliable EU-based servers with unbeatable price-to-performance, generous bandwidth, and transparent pricing.",
+    "pairedWith": "OVH CDN",
+    "link": "https://www.hetzner.com/cloud"
+  },
+  {
+    "tool": "Hetzner Storage Boxes + Object Storage",
+    "category": "Object Storage",
+    "description": "Affordable, high-capacity storage with unlimited traffic, easy protocols (SFTP, SMB, WebDAV), and EU data privacy.",
+    "pairedWith": "Hetzner",
+    "link": "https://www.hetzner.com/storage/storage-box"
+  },
+  {
+    "tool": "Inngest",
+    "category": "Event Automation, Job Queue",
+    "description": "Handles retries, delays, and workflows that normally need a ton of cron + queue glue. Local dev experience is great — feels like writing normal server code.",
+    "pairedWith": "Railway, Vercel",
+    "link": "https://www.inngest.com/"
+  },
+  {
+    "tool": "Jam.dev",
+    "category": "Bug Reporting",
+    "description": "Instant screen recording with console logs, network requests, and repro steps auto-attached — devs get exactly what they need to fix bugs fast.",
+    "pairedWith": "",
+    "link": "https://jam.dev/"
+  },
+  {
+    "tool": "Koyeb",
+    "category": "AI Inference, PaaS, Serverless/Edge computing",
+    "description": "Global serverless platform for running Docker containers and web services and ai models",
+    "pairedWith": "",
+    "link": "https://www.koyeb.com/"
+  },
+  {
+    "tool": "LearnDMARC",
+    "category": "Email",
+    "description": "Straightforward learning hub to master SPF, DKIM, and DMARC — solid if you’re setting up secure email and want to avoid the usual trial and error.",
+    "pairedWith": "",
+    "link": "https://learndmarc.com/"
+  },
+  {
+    "tool": "Linode (Akamai)",
+    "category": "VPS Hosting",
+    "description": "Solid, no-frills VPS. They’ve been around forever and now get Akamai’s global network perks. Good if you want predictable performance with no drama.",
+    "pairedWith": "",
+    "link": "https://www.linode.com/"
+  },
+  {
+    "tool": "Liveblocks",
+    "category": "Real-Time Collaboration",
+    "description": "Add Google Docs–style multiplayer to your app with dead simple APIs for presence, live cursors, and CRDT-backed storage.",
+    "pairedWith": "",
+    "link": "https://liveblocks.io/"
+  },
+  {
+    "tool": "Mastra AI",
+    "category": "AI Agent Framework",
+    "description": "A full-fledged TypeScript framework for building, observing, and deploying AI agents and workflows. From practical experience, it’s saved me hours wiring up RAG, tool-calling, memory, tracing, and playback—all integrated and type-safe (no messy glue code between SDKs) ",
+    "pairedWith": "",
+    "link": "https://www.mastra.ai/"
+  },
+  {
+    "tool": "MECSA",
+    "category": "Email",
+    "description": "EU-hosted tool for testing and monitoring your email authentication (SPF, DKIM, DMARC). Good for catching misconfigs that wreck deliverability or compliance.",
+    "pairedWith": "",
+    "link": "https://mecsa.jrc.ec.europa.eu/en/"
+  },
+  {
+    "tool": "Metabase",
+    "category": "Analytics, BI",
+    "description": "Easiest self-hosted BI tool — connects to your DB, point and click charts for non-technical folks. Great if you’re tired of making dashboards in Google Sheets.",
+    "pairedWith": "",
+    "link": "https://www.metabase.com/"
+  },
+  {
+    "tool": "MinIO",
+    "category": "Object Storage",
+    "description": "S3-compatible storage you can run anywhere — local dev, on-prem, or cloud. Great when you want S3 features but don’t want S3 bills.",
+    "pairedWith": "",
+    "link": "https://min.io/"
+  },
+  {
+    "tool": "Modal",
+    "category": "AI/ML Infra, Serverless GPU",
+    "description": "Easiest way to run GPU-heavy Python without wrangling CUDA or Docker. Feels like writing local code that scales to big machines when needed.",
+    "pairedWith": "Cloud Storage",
+    "link": "https://modal.com/"
+  },
+  {
+    "tool": "MotherDuck",
+    "category": "Analytics, Database, Serverless/Edge computing",
+    "description": "If you outgrow local DuckDB files, MotherDuck makes it trivial to scale up to the cloud but keep the same workflow. Hybrid local+cloud is the key angle.",
+    "pairedWith": "",
+    "link": "https://motherduck.com/"
+  },
+  {
+    "tool": "Mux",
+    "category": "Video Streaming",
+    "description": "Developer-friendly video platform for streaming, live, and on-demand video — APIs, analytics, and beautiful playback with pay-as-you-go pricing.",
+    "pairedWith": "Cloudflare CDN",
+    "link": "https://www.mux.com/"
+  },
+  {
+    "tool": "NocoDB",
+    "category": "Database, No-Code",
+    "description": "Turn any SQL DB into a spreadsheet-like interface. Good for letting non-devs poke at data without writing SQL or spinning up Airtable.",
+    "pairedWith": "",
+    "link": "https://www.nocodb.com/"
+  },
+  {
+    "tool": "http://novel.sh/",
+    "category": "AI Writing, WYSIWYG Editor",
+    "description": "Notion-inspired editor with built-in AI autocompletion—means I get smart suggestions without context-switching to ChatGPT. Feels native, fast, and avoids fiddling with separate tooling. ",
+    "pairedWith": "",
+    "link": "https://novel.sh/"
+  },
+  {
+    "tool": "OVH CDN",
+    "category": "CDN",
+    "description": "Cost-effective EU-focused CDN with tight integration for OVH hosting and pay-as-you-go pricing.",
+    "pairedWith": "OVH VPS",
+    "link": "https://www.ovhcloud.com/en/cdn/"
+  },
+  {
+    "tool": "OVHCloud VPS",
+    "category": "VPS Hosting",
+    "description": "High-performance VPS with unmetered bandwidth (except Asia-Pacific) at very competitive prices.",
+    "pairedWith": "OVH CDN",
+    "link": "https://www.ovhcloud.com/en-in/vps/"
+  },
+  {
+    "tool": "Pandoc",
+    "category": "Document Parsing",
+    "description": "Swiss army knife for converting anything text-ish to anything else — Markdown to PDF, DOCX to HTML, you name it. CLI is legendary once you get the flags right.",
+    "pairedWith": "",
+    "link": "https://pandoc.org/"
+  },
+  {
+    "tool": "PlanetScale",
+    "category": "Database, Serverless/Edge computing",
+    "description": "Schema changes never block production — database branching is the real standout here. Great if you hate late-night “oops, migration locked the app” moments.",
+    "pairedWith": "Railway, Vercel",
+    "link": "https://planetscale.com/"
+  },
+  {
+    "tool": "PocketBase",
+    "category": "Auth, BaaS",
+    "description": "Tiny Go backend you can run anywhere — gives you auth, real-time DB, file storage, and an admin UI in a single binary. Ridiculously easy for side projects or POCs.",
+    "pairedWith": "",
+    "link": "https://pocketbase.io/"
+  },
+  {
+    "tool": "Portainer",
+    "category": "Container Management",
+    "description": "Easiest way to manage Docker containers via a web UI. Great when you’re self-hosting lots of stuff and don’t want to SSH for every little tweak.",
+    "pairedWith": "",
+    "link": "https://www.portainer.io/"
+  },
+  {
+    "tool": "PostHog",
+    "category": "Product Analytics",
+    "description": "Full-stack, open-source analytics you can self-host. Heatmaps + feature flags in one dashboard—no “black box” data hoarding.",
+    "pairedWith": "",
+    "link": "https://posthog.com/"
+  },
+  {
+    "tool": "Prefect",
+    "category": "Data Integration, ETL",
+    "description": "",
+    "pairedWith": "",
+    "link": "https://www.prefect.io/"
+  },
+  {
+    "tool": "Pulumi",
+    "category": "Infrastructure as Code",
+    "description": "Write your infra in real programming languages (TS/Python/Go/C#) instead of YAML. Native loops, abstractions, and testing feel like real code.",
+    "pairedWith": "",
+    "link": "https://www.pulumi.com/"
+  },
+  {
+    "tool": "Pusher",
+    "category": "PaaS, Real-Time Messaging",
+    "description": "If you just want WebSockets working now with zero infra, Pusher is still the easiest plug-and-play for channels and events.",
+    "pairedWith": "",
+    "link": "https://pusher.com/"
+  },
+  {
+    "tool": "Railway",
+    "category": "PaaS",
+    "description": "Basically “Heroku, but modern”. Git push, deploy, done. Usage-based billing is great if you don’t want to idle infra burning cash.",
+    "pairedWith": "",
+    "link": "https://railway.app/"
+  },
+  {
+    "tool": "Raycast",
+    "category": "Dev Tooling",
+    "description": "Spotlight on steroids for devs — extensions for GitHub, Jira, scripts, clipboard manager, all in one launcher. You’ll never open your browser for tiny tasks again.",
+    "pairedWith": "",
+    "link": "https://www.raycast.com/"
+  },
+  {
+    "tool": "Sentry",
+    "category": "Error Monitoring",
+    "description": "Best way to actually see what broke — traces, breadcrumbs, and releases make debugging less guesswork.",
+    "pairedWith": "",
+    "link": "https://sentry.io/"
+  },
+  {
+    "tool": "Shodan",
+    "category": "OSINT, Recon, Security",
+    "description": "Search engine for internet-connected devices — find exposed servers, IoT, or vulnerabilities instantly.",
+    "pairedWith": "",
+    "link": "https://www.shodan.io/"
+  },
+  {
+    "tool": "SST",
+    "category": "Infrastructure as Code",
+    "description": "Combines CDK for infra with live Lambda development. Edit your Lambda code locally and see changes instantly—no rebuilds or redeploys.Ask ChatGPT",
+    "pairedWith": "",
+    "link": "https://sst.dev/"
+  },
+  {
+    "tool": "Supabase",
+    "category": "Auth, BaaS, Database, Serverless/Edge computing",
+    "description": "Instant Postgres with realtime, row-level security, auth, and auto-generated APIs. Postgres fanatics finally get a Firebase alternative.",
+    "pairedWith": "",
+    "link": "https://supabase.com/"
+  },
+  {
+    "tool": "Tailscale",
+    "category": "Networking, VPN",
+    "description": "Zero-config mesh VPN — connect all your servers, VMs, and dev machines like they’re on the same LAN. Magic DNS and easy ACLs are a lifesaver.",
+    "pairedWith": "",
+    "link": "https://tailscale.com/"
+  },
+  {
+    "tool": "Temporal",
+    "category": "Event Automation, Job Queue",
+    "description": "Makes complex workflows dead-simple — retries, timeouts, long-running tasks, all handled for you. Feels weird at first but saves you from spaghetti cron jobs + DB flags",
+    "pairedWith": "",
+    "link": "https://temporal.io/"
+  },
+  {
+    "tool": "Tiptap",
+    "category": "WYSIWYG Editor",
+    "description": "A ProseMirror-based, headless TS editor with full control over UI and extensions. I've built custom editors and it’s flexible and reliable—no vendor lock-in, and docs/community are solid. ",
+    "pairedWith": "",
+    "link": "https://tiptap.dev/"
+  },
+  {
+    "tool": "Trigger.dev",
+    "category": "Event Automation, Job Queue",
+    "description": "Similar to Inngest but fully open source and really tight with TypeScript/Next.js. Good if you want background jobs baked right into your app repo.",
+    "pairedWith": "Vercel",
+    "link": "https://trigger.dev/"
+  },
+  {
+    "tool": "Turso",
+    "category": "Database",
+    "description": "SQLite with global edge replicas — so you can do low-latency reads basically anywhere. Pairs well with edge runtimes like Workers or Fly.",
+    "pairedWith": "Cloudflare Workers",
+    "link": "https://turso.tech/"
+  },
+  {
+    "tool": "Typesense",
+    "category": "Search",
+    "description": "If you want Algolia-level speed but truly open source and easy to self-host. Good docs, very community-friendly.",
+    "pairedWith": "",
+    "link": "https://typesense.org/"
+  },
+  {
+    "tool": "Unstructured",
+    "category": "Document Parsing",
+    "description": "Turn PDFs, DOCX, and messy HTML into clean text chunks for LLMs — saves tons of regex hacking when building RAG pipelines.",
+    "pairedWith": "",
+    "link": "https://unstructured.io/"
+  },
+  {
+    "tool": "Upstash",
+    "category": "Job Queue, PaaS, Serverless/Edge computing",
+    "description": "Serverless Redis or Kafka with usage-based pricing — dead simple to plug into serverless or edge runtimes where you can’t run stateful infra. Good for queues or rate limits.",
+    "pairedWith": "",
+    "link": "https://upstash.com/"
+  },
+  {
+    "tool": "Vultr",
+    "category": "VPS Hosting",
+    "description": "Easy to find a location really close to users — more city-level data centers than most. Their High-Frequency compute is a great bang-for-buck if you need snappy CPUs.",
+    "pairedWith": "Cloudflare CDN",
+    "link": "https://www.vultr.com/"
+  },
+  {
+    "tool": "WeasyPrint",
+    "category": "Document Parsing",
+    "description": "Turn HTML + CSS into PDFs with great control over styling. Solid if you need pixel-perfect invoices or reports without fighting headless Chrome.",
+    "pairedWith": "",
+    "link": "https://weasyprint.org/"
+  },
+  {
+    "tool": "Weaviate",
+    "category": "Vector Database",
+    "description": "Handles multi-tenancy out of the box — one of the easiest vector DBs if you need isolated spaces for each customer without gluing together your own auth layer.",
+    "pairedWith": "",
+    "link": "https://weaviate.io/"
+  },
+  {
+    "tool": "WorkOS",
+    "category": "Auth",
+    "description": " Lets you bolt on enterprise SSO, directory sync, and audit logs in minutes—no wrestling with SAML/OIDC specs. All your user-management headaches handled via a simple REST/SDK interface",
+    "pairedWith": "",
+    "link": "https://workos.com/"
+  }
+]
