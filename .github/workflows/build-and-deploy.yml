@@ -3,7 +3,7 @@ name: Build and Generate README
 on:
   push:
     branches:
-      - main # Trigger the action on push to the main branch
+      - master # Trigger the action on push to the master branch
 
 permissions:
   contents: write # Allow the action to write to the repository (to commit README.md)
