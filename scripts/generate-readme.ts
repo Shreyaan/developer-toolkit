@@ -29,6 +29,10 @@ tools.forEach((tool) => {
 // Sort categories alphabetically
 const sortedCategories = Array.from(toolsByCategory.keys()).sort();
 
+const toolsString = tools.map((tool) => tool.tool + ": " + tool.category).join(", ");
+
+const queryParams = encodeURIComponent(`You are a helpful Tech Lead that can answer user questions about tech and infrastructure tools. The modern developer's toolkit list provides good recommendations for tools to use for building modern applications. The list of tools is as follows: ${toolsString}. You can take help from this list to answer the user's question.`);
+
 const readmeTemplate = `# The Modern Developer's Toolkit 🚀
 
 > **A curated collection of powerful tools, services, and libraries for building modern applications.**
@@ -58,6 +62,9 @@ I have tried to categorize the tools as best as I can.
 ## 🎯 Quick Start
 
 **[➡️ View the Live Toolkit Website](https://modern-developer-toolkit.vercel.app/)**
+
+
+**[🤖Talk to Chatgpt using this list](https://chatgpt.com/?prompt=${queryParams})**
 
 ---
 
